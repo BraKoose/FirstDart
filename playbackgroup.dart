@@ -32,4 +32,11 @@ main() {
   var myNumbers = [3, 10, 2021, 2, 52];
   print(myNumbers[2]);
   print(kooseHobbies[0]);
+
+  var wishes = {
+    'Rolls Royce Phanthom',
+    "Trotro Net Worth 1Tusd",
+    'Trip tp Amsterdam'
+  };
+  print(wishes.lookup('Rolls Royce Phanthom'));
 }
