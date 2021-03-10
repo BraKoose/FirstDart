@@ -27,4 +27,9 @@ main() {
   } else
     print(
         "It's an odd number and the second is finite an double ${doubleToString} and a finite number ");
+
+  List kooseHobbies = ['Coding', 'Planets', 'Exo Planets', 'Money'];
+  var myNumbers = [3, 10, 2021, 2, 52];
+  print(myNumbers[2]);
+  print(kooseHobbies[0]);
 }
