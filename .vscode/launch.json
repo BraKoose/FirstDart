@@ -1,0 +1,35 @@
+{    
+    "version": "0.2.0",
+    "configurations": [
+        
+
+       {
+           "name": "Dart: Attach to Process",
+           "type": "dart",
+           "request": "attach"
+       },
+       {
+           "name": "Dart",
+           "type": "dart",
+           "request": "launch",
+           "program": "bin/main.dart"
+       },
+       {
+           "name": "Dart: Run all Tests",
+           "type": "dart",
+           "request": "launch",
+           "program": "./test/"
+       },
+       {
+           "name": "Dart: Attach to Process",
+           "type": "dart",
+           "request": "attach"
+       },
+
+       {
+           "name": "Dart",
+           "program": "bin/main.dart",
+           "request": "launch",
+           "type": "dart"
+       }
+   ] }
